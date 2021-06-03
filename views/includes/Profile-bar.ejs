@@ -1,0 +1,5 @@
+<div class="profile-nav nav nav-tabs pt-2 mb-4">
+    <a href="/profile/<%=doc.username%>" class="profile-nav-link nav-item nav-link <%= currentPage=='posts' ? 'active': '' %> ">Posts: <%= postCount %></a>
+    <a href="/profile/<%=doc.username%>/followers" class="profile-nav-link nav-item nav-link <%= currentPage=='followers' ? 'active': '' %>">Followers: <%= followerCount %></a>
+    <a href="/profile/<%=doc.username%>/following" class="profile-nav-link nav-item nav-link <%= currentPage=='following' ? 'active': '' %>">Following: <%= followingCount %></a>
+  </div>

@@ -1,0 +1,36 @@
+{
+  "name": "my-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "start nodemon db --ignore frontend-js --ignore public/ && start webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "marked": "^2.0.1",
+    "md5": "^2.3.0",
+    "mongodb": "^3.6.4",
+    "nodemon": "^2.0.7",
+    "router": "^1.3.5",
+    "sanitize-html": "^2.3.2",
+    "socket.io": "^4.0.0",
+    "validator": "^13.5.2",
+    "webpack": "^5.26.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
